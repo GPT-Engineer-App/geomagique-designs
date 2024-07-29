@@ -1,5 +1,6 @@
-import { Home, PenTool, FolderOpen, Settings } from "lucide-react";
+import { Home, PenTool, FolderOpen, Settings, Bug } from "lucide-react";
 import Index from "./pages/Index.jsx";
+import BugFinder from "./pages/BugFinder.jsx";
 
 export const navItems = [
   {
@@ -19,6 +20,12 @@ export const navItems = [
     to: "/my-designs",
     icon: <FolderOpen className="h-4 w-4" />,
     page: <Index />, // Replace with actual page component when created
+  },
+  {
+    title: "Bug Finder",
+    to: "/bug-finder",
+    icon: <Bug className="h-4 w-4" />,
+    page: <BugFinder />,
   },
   {
     title: "Settings",

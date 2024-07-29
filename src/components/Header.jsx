@@ -11,6 +11,7 @@ const Header = () => {
               <li><Link to="/" className="text-gray-600 hover:text-gray-900">Home</Link></li>
               <li><Link to="/generate" className="text-gray-600 hover:text-gray-900">Generate Design</Link></li>
               <li><Link to="/my-designs" className="text-gray-600 hover:text-gray-900">My Designs</Link></li>
+              <li><Link to="/bug-finder" className="text-gray-600 hover:text-gray-900">Bug Finder</Link></li>
               <li><Link to="/settings" className="text-gray-600 hover:text-gray-900">Settings</Link></li>
             </ul>
           </nav>
